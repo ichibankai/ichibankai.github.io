@@ -6,7 +6,7 @@ body {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 @media(min-width:600px){
@@ -78,7 +78,7 @@ p {
 .position5{
     position: relative;
     top: -100px;
-    left: 50px;
+    left: 30px;
     /* right: 0px; */
 }
 
@@ -146,6 +146,11 @@ p {
     }
     
 }
+
+#notification-head-section p {
+    font-size: 12px;
+}
+
 
 #extinguish-head{
     height: 200px;
