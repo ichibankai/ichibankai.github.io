@@ -1,50 +1,229 @@
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: #FFF;
+    color: rgb(0, 0, 0);
+    /* font-family: Permanent Marker ,cursive; */
+    font-family: 'Open Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
 }
+
+p {
+    font-size: 10px;
+}
+
+@media(min-width:600px){
+    p{
+        font-size: 20px;
+    }
+}
+
+/* a {
+    text-decoration: none;
+} */
 
 
 .navbar {
-    border-bottom: #008ed6 3px solid;
+    height: 75px;
     opacity: 0.8;
+    transition: all 0.5s ease-out;
+}
+
+.toiawase {
+    background-color:#000;
+    color: #fff;
+    padding: 15px 0;
+    opacity: 1;
+    height: 100%;
+
+}
+
+@media(max-width:750px){
+    .toiawase{
+        display: none;
+        padding: 0px;
+    }
+}
+
+
+.title{
+    font-family: "游明朝体", YuMincho, "游明朝 Medium", "Yu Mincho Medium";
+}
+
+.title2 {
+    font-family: Sawarabi Mincho;
+}
+
+
+.position{
+    position: absolute;
+    top: -100px;
+    right: 0px;
+    /* width: 200; */
+    height: 100px;
+    min-width: 200px;
+}
+
+.position2{
+    position: absolute;
+    top: -60px;
+    left: 0px;
+    height: 100px;
+    min-width: 200px;
+}
+
+.position3{
+    position: relative;
+    top: -120px;
+    right: 20px;
+}
+
+.position5{
+    position: relative;
+    top: -100px;
+    left: 50px;
+    /* right: 0px; */
+}
+
+.img-position{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.vertical{
+    writing-mode:tb-rl;
 }
 
 #home-section {
-    background: url(https://source.unsplash.com/random);
+    background: url(/img/2019dezomeshiki_190912_0040.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
-#home-section  .dark-overlay {
+.dark-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px;
-    background: rgba(0,0,0,0.6);
-
+    min-height: 100vh;
+    background: rgba(0,0,0,0.3);
 }
+
+.dark-overlay2 {
+    color: #000;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* min-height: 100%; */
+    background: rgba(255, 255, 255, 0.9);
+}
+
 
 #home-section .home-inner {
     padding-top: 100px;
 }
 
-#home-section .card-form {
-    opacity: 0.8;
+.ichiban-logo{
+    color: #000;
+    -webkit-text-stroke: 0.5px #fff;
+    position: absolute;
+    top: 165px;
+    right: 160px;
+    z-index: 2;
 }
 
-#home-section .fas, #create-section .fas {
-    color: #008ed6;
-    background-color:#fff;
-    padding: 5px;
-    border-radius: 5px;
+@media(max-width:1100px) {
+    .ichiban-logo{
+        display: none;
+    }
 }
 
-#explore-section .fas, #share-section .fas {
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
+@media(min-width:992px){
+    .notification{
+        writing-mode:tb-rl;
+    }
+    
+    
 }
+
+#extinguish-head{
+    height: 200px;
+    background: url(/img/2019dezomeshiki_190912_0006.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#Hashigo-head-section{
+    height: 250px;
+    background: url(/img/2019出初式_190912_0018.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: top;
+}
+
+#history-head-section{
+    height: 250px;
+    background: url(/img/2019出初式_190912_0009.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -100px right 0px;
+}
+
+
+.swith-border{
+    padding: 15px;
+    box-shadow: 4px 4px;
+    border: 1px solid #333;
+}
+
+@media(min-width:600px) {
+    #extinguish-head{
+        height: 250px;
+    }
+
+    #Hashigo-head-section{
+        height: 300px;
+    }
+    
+    #history-head-section{
+        height: 300px;
+        background-position: top -150px right 0px;
+    }
+}
+
+@media(min-width:700px) {
+    #extinguish-head{
+        height: 300px;
+    }
+
+    #Hashigo-head-section{
+        height: 350px;
+    }
+    
+    #history-head-section{
+        height: 350px;
+        background-position: top -150px right 0px;
+    }
+}
+
+@media(min-width:800px) {
+    #extinguish-head{
+        height: 400px;
+    }
+
+    #Hashigo-head-section{
+        height: 450px;
+    }
+    
+    #history-head-section{
+        height: 450px;
+        background-position: top -150px right 0px;
+    }
+
+}
+

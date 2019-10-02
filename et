@@ -1,0 +1,83 @@
+[33mcommit c1ebeb06880cc494e12784ed87c161f8c5ffe8f1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Sat Sep 14 16:59:14 2019 +0900
+
+    first commit
+
+[33mcommit 07a73e9d0c3828e1acc23e86babf9c374ad5ba55[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:35:38 2019 +0800
+
+    edited README
+
+[33mcommit 555f736c05ae25f80c3fe94c92d63d3b81ac1909[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:33:49 2019 +0800
+
+    edited img url
+
+[33mcommit e997f6ee3006016d3ef4adc6f9d8118d43eb2dfd[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:28:24 2019 +0800
+
+    added footer and contact modal section
+
+[33mcommit 305b93b7ce3e44f22aa3aec2b5dae5701a7d1906[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:27:46 2019 +0800
+
+    added share section
+
+[33mcommit 12ef73c0e58df52a64b26e4d2423bf72b3f75bd9[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:27:16 2019 +0800
+
+    added create section
+
+[33mcommit 9a3ad809e104907e48e54daf300ef5195f768085[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:26:25 2019 +0800
+
+    explore section
+
+[33mcommit 4e9ac702e3f64632da1ea552160210da9ff75b5c[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:25:30 2019 +0800
+
+    edited css
+
+[33mcommit c5af86110694279dfa7075c7f64524fb6677ccc5[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:17:09 2019 +0800
+
+    added home section
+
+[33mcommit af72b6d555758071886af8b7263028e53ab8a051[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:16:20 2019 +0800
+
+    added header section
+
+[33mcommit c06db1dfdfa753370e8aa512871d1ce8aa78c136[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:15:18 2019 +0800
+
+    set css and js in html
+
+[33mcommit c40cb1646847d6bbf8c45c845d7eec36adc8fbda[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:09:31 2019 +0800
+
+    added bootstrap javascript and css
+
+[33mcommit 4fe3d3327e33019906f5e35707623bb0846aaa6c[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 12:06:31 2019 +0800
+
+    added README.md
+
+[33mcommit 88313b9e3eba38dfb39660cac075d81cfde65fee[m
+Author: Hiroyuki Chu <chu22f@gmail.com>
+Date:   Thu May 16 11:59:56 2019 +0800
+
+    added index.html
