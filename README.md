@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Bootstrap cool template
 this is easy and cool bootstrap template
 
@@ -20,3 +21,6 @@ this is easy and cool bootstrap template
 また、実際の火事の方向を見定める方法としてだけでなく、鳶職人たちが仕事を始める前の準備運動として行っていたり、訓練に活用していたりしたとも言われています。
 
 はしご乗りに使用されるはしごは三間三尺（約6メートル）の青竹製、14段の小骨と呼ばれるはしごの桟が付いています。このはしごを12本の鳶口が支えながら行われる曲芸で、日本の伝統芸能のひとつでもあります。"# ichibankai.github.io" 
+=======
+"# ichibankai.github.io" 
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147

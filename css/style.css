@@ -6,7 +6,11 @@ body {
 }
 
 p {
+<<<<<<< HEAD
     font-size: 10px;
+=======
+    font-size: 16px;
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
 }
 
 @media(min-width:600px){
@@ -78,7 +82,11 @@ p {
 .position5{
     position: relative;
     top: -100px;
+<<<<<<< HEAD
     left: 50px;
+=======
+    left: 30px;
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
     /* right: 0px; */
 }
 
@@ -145,9 +153,19 @@ p {
         writing-mode:tb-rl;
     }
     
+<<<<<<< HEAD
     
 }
 
+=======
+}
+
+#notification-head-section p {
+    font-size: 12px;
+}
+
+
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
 #extinguish-head{
     height: 200px;
     background: url(/img/2019dezomeshiki_190912_0006.jpg);
@@ -162,7 +180,10 @@ p {
     background: url(/img/2019出初式_190912_0018.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     /* background-attachment: fixed; */
+=======
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
     background-position: top;
 }
 
@@ -188,6 +209,11 @@ p {
 
     #Hashigo-head-section{
         height: 300px;
+<<<<<<< HEAD
+=======
+        background-attachment: fixed;
+
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
     }
     
     #history-head-section{
@@ -227,3 +253,34 @@ p {
 
 }
 
+<<<<<<< HEAD
+=======
+@media(min-width:800px) {
+    #extinguish-head{
+        background-position: top -50px right 0px;
+    }
+
+    /* #Hashigo-head-section{
+        height: 450px;
+    } */
+    
+    #history-head-section{
+        height: 450px;
+        background-position: top -250px right 0px;
+    }
+
+}
+
+@media(min-width:800px) {
+
+    #history-head-section{
+        height: 450px;
+        background-position: top -350px right 0px;
+    }
+
+}
+
+
+
+/* https://ichibankai.github.io/ */
+>>>>>>> 37094c3ddbffdfb2973cd39b20e32f67a8e86147
