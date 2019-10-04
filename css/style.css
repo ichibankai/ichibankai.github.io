@@ -2,6 +2,7 @@ body {
     background-color: #FFF;
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, sans-serif;
+    z-index:0;
 }
 
 p {
