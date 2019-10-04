@@ -81,10 +81,9 @@ p {
 #home-section {
     background: url(/img/main.jpg);
     background-repeat: no-repeat;
-    background-size: 100vmax 100vmax;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     min-height: 100vh;
 }
 
@@ -127,11 +126,12 @@ p {
 
 
 #extinguish-head{
-    height: 200px;
+    height: 300px;
     background: url(/img/main2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
+    /* background-attachment: fixed; */
 }
 
 
@@ -181,15 +181,6 @@ p {
 
 
 @media(min-width:600px) {
-    #extinguish-head{
-        height: 250px;
-    }
-
-    #Hashigo-head-section{
-        height: 300px;
-        background-attachment: fixed;
-
-    }
     
     #history-head-section{
         height: 300px;
@@ -197,9 +188,22 @@ p {
     }
 }
 
-@media(min-width:700px) {
+@media(min-width:1025px) {
     #extinguish-head{
         height: 300px;
+        background-attachment: fixed;
+    }
+
+    #Hashigo-head-section{
+        height: 300px;
+        background-attachment: fixed;
+
+    }
+}
+
+@media(min-width:700px) {
+    #extinguish-head{
+        height: 350px;
     }
 
     #Hashigo-head-section{
@@ -214,7 +218,7 @@ p {
 
 @media(min-width:800px) {
     #extinguish-head{
-        height: 400px;
+        height: 450px;
     }
 
     #Hashigo-head-section{
